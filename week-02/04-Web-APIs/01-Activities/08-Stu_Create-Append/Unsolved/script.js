@@ -13,6 +13,23 @@ var li2 = document.createElement("li");
 var li3 = document.createElement("li");
 var li4 = document.createElement("li");
 
+li1.textContent = "Apples"
+li2.textContent = "Pizza"
+li3.textContent = "Dumplings"
+li4.textContent = "Cupcakes"
+
+listEl.append(li1)
+listEl.append(li2)
+listEl.append(li3)
+listEl.append(li4)
+
+listEl.setAttribute("style", "background-color: #333333; padding:20px")
+
+li1.setAttribute("style", "color:white; padding:5px; margin-left:35px; background-color:darkgreen")
+li2.setAttribute("style", "color:white; padding:5px; margin-left:35px; background-color:salmon")
+li3.setAttribute("style", "color:white; padding:5px; margin-left:35px; background-color:darkblue")
+li4.setAttribute("style", "color:white; padding:5px; margin-left:35px; background-color:orange")
+
 h1El.textContent = "Welcome to my page";
 kittenEl.textContent = "This is my kitten 🐱.";
 nameEl.textContent = "His name is Jax.";
