@@ -3,8 +3,10 @@ var state = element.getAttribute("data-state");
 
 container.addEventListener("click", function(event)
   var element = event.target;
-    if (element.matches("container.box")) {
 
+    if (element.matches("div.box")) {
+      var state = element.getAttribute("data-state");
+      if (state === "hidden")
   
 
   // TODO: Complete function
