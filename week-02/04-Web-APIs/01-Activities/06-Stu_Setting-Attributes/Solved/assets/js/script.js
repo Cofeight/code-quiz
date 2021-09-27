@@ -25,6 +25,6 @@ site3El.children[1].children[0].setAttribute("style", "padding:10px;");
 
 // Loop through all h4 elements to add styling 
 for (var i = 0; i < siteTitles.length; i++) {
-  siteTitles[i].setAttribute("style", "color: blue; font-weight: bolder; font-size: 30px; padding-left:10px; margin: 0");
+  siteTitles[i].setAttribute("style", "color: blue; font-weight: bolder; font-size: 30px; padding-left:100px; margin: 0");
 }
 
